@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 203 nits HDR Pattern</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            background: #ffffff;
+            font-family: sans-serif;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .video-wrapper {
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+        }
+
+        .filename {
+            margin-top: 5px;
+            font-size: 14px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-grid">
+        <div class="video-wrapper">
+            <video loop muted>
+                <source src="100 203 nits HLG.mp4" type="video/mp4">
+            </video>
+            <div class="filename">100 203 nits HLG.mp4</div>
+        </div>
+
+        <div class="video-wrapper">
+            <video loop muted>
+                <source src="100 203 nits PQ.mp4" type="video/mp4">
+            </video>
+            <div class="filename">100 203 nits PQ.mp4</div>
+        </div>
+
+        <div class="video-wrapper">
+            <video loop muted>
+                <source src="100 203 nits PQ VP9 downloaded from YouTube.mkv" type="video/x-matroska">
+            </video>
+            <div class="filename">100 203 nits PQ VP9 downloaded from YouTube.mkv</div>
+        </div>
+
+        <div class="video-wrapper">
+            <video loop muted>
+                <source src="100 203 nits PQ VP9 video stream only downloaded from YouTube.mp4" type="video/mp4">
+            </video>
+            <div class="filename">100 203 nits PQ VP9 video stream only downloaded from YouTube.mp4</div>
+        </div>
+    </div>
+
+</body>
+</html>
